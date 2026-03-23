@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string>System Filter</string>
+            <key>PayloadIdentifier</key>
+            <string>com.kerocu.blocker.v1</string>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadUUID</key>
+            <string>67890-ABCDE-12345-FGHIJ</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            
+            <key>blacklistedAppBundleIDs</key>
+            <array>
+                <string>net.whatsapp.WhatsApp</string>
+                <string>net.whatsapp.WhatsAppBusiness</string>
+            </array>
+        </dict>
+    </array>
+    
+    <key>PayloadDisplayName</key>
+    <string>KEROCU - WhatsApp Devre Disi</string>
+    <key>PayloadIdentifier</key>
+    <string>com.kerocu.ios15.main</string>
+    <key>PayloadOrganization</key>
+    <string>KEROCU</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>12345-FGHIJ-67890-ABCDE</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    
+    <key>PayloadRemovalDisallowed</key>
+    <false/> 
+</dict>
+</plist>
