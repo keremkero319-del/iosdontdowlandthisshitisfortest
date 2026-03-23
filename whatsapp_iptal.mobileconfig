@@ -5,34 +5,12 @@
     <key>PayloadContent</key>
     <array>
         <dict>
-            <key>PayloadDisplayName</key>
-            <string>Web Content Filter</string>
-            <key>PayloadIdentifier</key>
-            <string>com.kerocu.webfilter</string>
-            <key>PayloadType</key>
-            <string>com.apple.webcontent-filter</string>
-            <key>PayloadUUID</key>
-            <string>F1A2B3C4-D5E6-47F8-G9H0-I1J2K3L4M5N6</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>FilterType</key>
-            <string>BuiltIn</string>
-            <key>AutoFilterEnabled</key>
-            <true/>
-            <key>denyURLs</key>
-            <array>
-                <string>https://*.google-analytics.com</string>
-                <string>https://*.static.com</string>
-            </array>
-        </dict>
-        
-        <dict>
             <key>PayloadType</key>
             <string>com.apple.proxy.http.global</string>
             <key>PayloadIdentifier</key>
-            <string>com.kerocu.oldproxy</string>
+            <string>com.kerocu.proxy.bypass</string>
             <key>PayloadUUID</key>
-            <string>G2H3I4J5-K6L7-48M9-N0O1-P2Q3R4S5T6U7</string>
+            <string>E9C12345-A1B2-C3D4-D5E6-F7G8H9I0J1K2</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>ProxyType</key>
@@ -40,23 +18,40 @@
             <key>ProxyServer</key>
             <string>127.0.0.1</string>
             <key>ProxyServerPort</key>
-            <integer>9999</integer>
+            <integer>8080</integer>
+        </dict>
+        
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadIdentifier</key>
+            <string>com.kerocu.dns.bypass</string>
+            <key>PayloadUUID</key>
+            <string>F0D12345-B2C3-D4E5-F6G7-H8I9J0K1L2M3</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>1.1.1.1</string>
+                </array>
+            </dict>
         </dict>
     </array>
-    
     <key>PayloadDisplayName</key>
-    <string>KEROCU - Legacy Web Mode</string>
+    <string>KEROCU - System Bypass</string>
     <key>PayloadIdentifier</key>
-    <string>com.kerocu.ios15.legacy</string>
+    <string>com.kerocu.bypass.v1</string>
     <key>PayloadOrganization</key>
     <string>KEROCU</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>H3I4J5K6-L7M8-49N9-O0P1-Q2R3S4T5U6V7</string>
+    <string>99999-88888-77777-66666</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
-    <key>PayloadRemovalDisallowed</key>
-    <false/>
 </dict>
 </plist>
